@@ -1,3 +1,1 @@
-const colors = ["red", "green", "blue"];
-const randomColor = colors[Math.floor(Math.random() * colors.length)];
-console.log(randomColor);
+const shuffle = (arr) => arr.sort(() => Math.random() - 0.5);
